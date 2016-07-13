@@ -10,6 +10,7 @@ public class Zoo {
     private static ArrayList<Animal> animals;
 
     private Zoo(){
+
         animals = new ArrayList<>();
     }
 
@@ -20,6 +21,7 @@ public class Zoo {
     }
 
     public void addAnimal(Animal animal){
+
         animals.add(animal);
     }
 
